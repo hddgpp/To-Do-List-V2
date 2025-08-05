@@ -1,0 +1,84 @@
+body {
+        text-align: center;
+        background-color: rgb(232, 244, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .main-stuff
+     {
+        display: grid flex;
+        grid-template-columns: 200px 150px 100;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .css-input {
+        padding: 10px 15px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        transition: all 0.2s ease-in-out;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 10px;
+        width: 200px; /* or auto if you want flexible sizing */
+    }
+    .css-input:focus {
+        border-color: rgb(92, 92, 92);
+        box-shadow: 0 0 5px rgba(10, 10, 10, 0.4);
+        background-color: white;
+    }
+
+    .task-css {
+        color: #333;
+    }
+
+    .due-css {
+        color: 	#888;
+    }
+
+    #line {
+        margin-top: 10px;
+        width: auto;
+        height: 1px;
+        background-color: black;
+        margin: 5px auto 0 auto;
+    }
+
+    .css-input {
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .listDiv-css {
+        width: 500px;
+        height: 2px;
+        background-color: black;
+        margin: 8px auto 0 auto; /* space above + center it */
+    }
+
+    .btn {
+        border: none;
+        border-radius: 5px;
+        padding: 10px 15px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+.addBtn {
+    background-color: green;
+    color: aliceblue;
+}
+.deleteBtn {
+    background-color: #ae1c1c;
+    color: aliceblue;
+    margin-left: 20px;
+}
+.css-DeleteTask {
+    background-color: #ae1c1c;
+    color: aliceblue;
+}
